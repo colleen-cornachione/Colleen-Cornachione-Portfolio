@@ -22,6 +22,11 @@ body {
 
 /***** HEADER *****/
 
+.top-header {
+    display: flex;
+    justify-content: space-between;
+}
+
 header {
     background: url('../img/overlook-background.jpg') no-repeat;
     background-position: center;
@@ -85,22 +90,22 @@ header h2 span {
     padding-right: 50px;
 }
 
-/***** WORK *****/
+/***** SKILLS *****/
 
-#work {
+#skills {
     background-color: #7ca8c5;
     text-align: center;
 }
 
-#work .full-width {
+#skills .full-width {
     padding: 115px 0;
 }
  
-#work img {
+#skills img {
     padding-bottom: 30px;
 }
 
-#work h3 {
+#skills h3 {
     font-size: 24px;
     line-height: 32px;
     margin: 0 auto;
@@ -108,7 +113,7 @@ header h2 span {
     
 }
  
-#work p {
+#skills p {
     font-family: 'Lora', serif;
     font-size: 18px;
     line-height: 30px;
